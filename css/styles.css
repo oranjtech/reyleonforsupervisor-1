@@ -413,8 +413,8 @@ html[data-lang="es"] .lang-en-only {
   width: 2.75rem;
   height: 2.75rem;
   border-radius: var(--radius-md);
-  border: 1px solid rgba(232, 163, 23, 0.35);
-  background: rgba(10, 22, 40, 0.45);
+  /* border: 1px solid rgba(232, 163, 23, 0.35); */
+  /* background: rgba(10, 22, 40, 0.45); */
   color: var(--color-white);
   padding: 0;
   cursor: pointer;
@@ -545,6 +545,11 @@ html[data-lang="es"] .lang-en-only {
 
 #hero-heading {
   text-transform: uppercase;
+}
+
+.hero-heading-accent {
+  color: var(--color-gold-bright);
+  text-shadow: 0 0 42px rgba(244, 193, 74, 0.22);
 }
 
 .hero-bg {
