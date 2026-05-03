@@ -581,8 +581,8 @@ html[data-lang="es"] .lang-en-only {
 
 @media (max-width: 899px) {
   .hero {
+    height: auto;
     padding-top: 30px;
-    /* overflow: auto; */
   }
 
   .hero-bg {
