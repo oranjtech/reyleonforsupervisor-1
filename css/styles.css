@@ -680,6 +680,14 @@ html[data-lang="es"] .lang-en-only {
   align-items: center;
 }
 
+.hero-election-note {
+  margin: 0.85rem 0 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-gold-bright);
+  letter-spacing: 0.02em;
+}
+
 .hero-visual {
   display: none;
 }
@@ -923,6 +931,10 @@ html[data-lang="es"] .lang-en-only {
   .platform-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .platform-item--wide {
+    grid-column: 1 / -1;
+  }
 }
 
 .platform-item {
@@ -1081,6 +1093,18 @@ textarea {
 .footer-links a:hover {
   text-decoration: underline;
   color: var(--color-gold-bright);
+}
+
+.footer-social {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-white);
+  transition: color 0.2s ease;
+}
+
+.footer-social:hover {
+  color: var(--color-gold-bright);
+  text-decoration: none;
 }
 
 [data-reveal] {
