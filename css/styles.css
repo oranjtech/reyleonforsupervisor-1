@@ -357,6 +357,23 @@ html[data-lang="es"] .lang-en-only {
   align-items: center;
 }
 
+.form-disclaimer {
+  margin: 1.25rem 0 0;
+  font-size: 0.72rem;
+  line-height: 1.55;
+  color: rgba(250, 248, 245, 0.62);
+  max-width: 52rem;
+}
+
+.form-disclaimer a {
+  color: var(--color-gold-bright);
+  font-weight: 600;
+}
+
+.form-disclaimer a:hover {
+  color: var(--color-white);
+}
+
 .thanks-ctas {
   margin-top: 1.25rem;
   display: flex;
